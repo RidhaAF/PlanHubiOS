@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE1CD08C2B206082001B44D3 /* PlanHubiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD08B2B206082001B44D3 /* PlanHubiOSApp.swift */; };
-		DE1CD08E2B206082001B44D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD08D2B206082001B44D3 /* ContentView.swift */; };
+		DE1CD08E2B206082001B44D3 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD08D2B206082001B44D3 /* TaskListView.swift */; };
 		DE1CD0902B206084001B44D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1CD08F2B206084001B44D3 /* Assets.xcassets */; };
 		DE1CD0932B206084001B44D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1CD0922B206084001B44D3 /* Preview Assets.xcassets */; };
 		DE1CD0952B206084001B44D3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0942B206084001B44D3 /* Persistence.swift */; };
@@ -16,6 +16,12 @@
 		DE1CD0A22B206085001B44D3 /* PlanHubiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0A12B206085001B44D3 /* PlanHubiOSTests.swift */; };
 		DE1CD0AC2B206085001B44D3 /* PlanHubiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0AB2B206085001B44D3 /* PlanHubiOSUITests.swift */; };
 		DE1CD0AE2B206085001B44D3 /* PlanHubiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0AD2B206085001B44D3 /* PlanHubiOSUITestsLaunchTests.swift */; };
+		DE1CD0BB2B206685001B44D3 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0BA2B206685001B44D3 /* FloatingButton.swift */; };
+		DE1CD0BE2B20673B001B44D3 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0BD2B20673B001B44D3 /* TaskEditView.swift */; };
+		DE1CD0C02B206EB0001B44D3 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0BF2B206EB0001B44D3 /* DateHolder.swift */; };
+		DE1CD0C22B207770001B44D3 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0C12B207770001B44D3 /* TaskCell.swift */; };
+		DE1CD0C42B207894001B44D3 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0C32B207894001B44D3 /* CheckBoxView.swift */; };
+		DE1CD0C72B207975001B44D3 /* TaskItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CD0C62B207975001B44D3 /* TaskItemExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 /* Begin PBXFileReference section */
 		DE1CD0882B206082001B44D3 /* PlanHubiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanHubiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1CD08B2B206082001B44D3 /* PlanHubiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHubiOSApp.swift; sourceTree = "<group>"; };
-		DE1CD08D2B206082001B44D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE1CD08D2B206082001B44D3 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		DE1CD08F2B206084001B44D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE1CD0922B206084001B44D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE1CD0942B206084001B44D3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,12 @@
 		DE1CD0A72B206085001B44D3 /* PlanHubiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanHubiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1CD0AB2B206085001B44D3 /* PlanHubiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHubiOSUITests.swift; sourceTree = "<group>"; };
 		DE1CD0AD2B206085001B44D3 /* PlanHubiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHubiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE1CD0BA2B206685001B44D3 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		DE1CD0BD2B20673B001B44D3 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		DE1CD0BF2B206EB0001B44D3 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		DE1CD0C12B207770001B44D3 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		DE1CD0C32B207894001B44D3 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		DE1CD0C62B207975001B44D3 /* TaskItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +110,12 @@
 		DE1CD08A2B206082001B44D3 /* PlanHubiOS */ = {
 			isa = PBXGroup;
 			children = (
-				DE1CD08B2B206082001B44D3 /* PlanHubiOSApp.swift */,
-				DE1CD08D2B206082001B44D3 /* ContentView.swift */,
 				DE1CD08F2B206084001B44D3 /* Assets.xcassets */,
-				DE1CD0942B206084001B44D3 /* Persistence.swift */,
+				DE1CD0C52B207951001B44D3 /* Model */,
 				DE1CD0962B206084001B44D3 /* PlanHubiOS.xcdatamodeld */,
+				DE1CD08B2B206082001B44D3 /* PlanHubiOSApp.swift */,
 				DE1CD0912B206084001B44D3 /* Preview Content */,
+				DE1CD0BC2B2066EF001B44D3 /* Views */,
 			);
 			path = PlanHubiOS;
 			sourceTree = "<group>";
@@ -131,6 +143,28 @@
 				DE1CD0AD2B206085001B44D3 /* PlanHubiOSUITestsLaunchTests.swift */,
 			);
 			path = PlanHubiOSUITests;
+			sourceTree = "<group>";
+		};
+		DE1CD0BC2B2066EF001B44D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE1CD0C32B207894001B44D3 /* CheckBoxView.swift */,
+				DE1CD0BA2B206685001B44D3 /* FloatingButton.swift */,
+				DE1CD0C12B207770001B44D3 /* TaskCell.swift */,
+				DE1CD0BD2B20673B001B44D3 /* TaskEditView.swift */,
+				DE1CD08D2B206082001B44D3 /* TaskListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE1CD0C52B207951001B44D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE1CD0BF2B206EB0001B44D3 /* DateHolder.swift */,
+				DE1CD0942B206084001B44D3 /* Persistence.swift */,
+				DE1CD0C62B207975001B44D3 /* TaskItemExtension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1CD0C02B206EB0001B44D3 /* DateHolder.swift in Sources */,
+				DE1CD0C72B207975001B44D3 /* TaskItemExtension.swift in Sources */,
 				DE1CD0982B206084001B44D3 /* PlanHubiOS.xcdatamodeld in Sources */,
 				DE1CD0952B206084001B44D3 /* Persistence.swift in Sources */,
-				DE1CD08E2B206082001B44D3 /* ContentView.swift in Sources */,
+				DE1CD0BB2B206685001B44D3 /* FloatingButton.swift in Sources */,
+				DE1CD0C42B207894001B44D3 /* CheckBoxView.swift in Sources */,
+				DE1CD0C22B207770001B44D3 /* TaskCell.swift in Sources */,
+				DE1CD0BE2B20673B001B44D3 /* TaskEditView.swift in Sources */,
+				DE1CD08E2B206082001B44D3 /* TaskListView.swift in Sources */,
 				DE1CD08C2B206082001B44D3 /* PlanHubiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
